@@ -1,15 +1,32 @@
 div.containter {
-	
+	max-width: 1000px;
+	width: 100%;	
+	margin: 0 auto;
 }
 
 article {
-	
+	width: 100%;
+	padding: 1em 0%;	
 }
 
 section {
-	
+	width: 92%;
+	padding: 1em 4%;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+section:hover {
+	background: #ccc;
 }
 
 aside {
 	
+}
+
+canvas {
+
 }

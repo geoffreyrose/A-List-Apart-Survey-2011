@@ -30,17 +30,24 @@
 	</head>
 	
 	<body>
-	<h3>Average Temperature</h3>
-		<canvas id="tempavgmon" width="600px" height="400px"></canvas>
-
-
-	<h3>Compare Days above 90 vs below freezing</h3>
-		<canvas id="freezeornot" width="600px" height="400px"></canvas>
+	<div class="containter">
+		<article>
+			<section>
+				<h3>Average Temperature</h3>
+				<canvas width="600px" height="450px" class="canvasw" id="tempavgmon"></canvas>
+			</section>
 		
-	<h3>Days of PRECIPITATIOn</h3>
-		<canvas id="daysofprec" width="600px" height="400px"></canvas>
-		
-
+			<section>
+				<h3>Compare Days above 90 vs below freezing</h3>
+				<canvas width="600px" height="450px" class="canvasw" id="freezeornot"></canvas>
+			</section>
+			
+			<section>	
+				<h3>Days of PRECIPITATIOn</h3>
+				<canvas width="600px" height="450px" class="canvasw" id="daysofprec"></canvas>
+			</section>
+		</article>
+	</div>
 		
 		<!-- Your JS Files Below -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
