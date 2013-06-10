@@ -67,7 +67,8 @@ h3 {
 div.containter {
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'SourceSansProLight'; }
 
 article {
   width: 100%;
@@ -90,3 +91,29 @@ canvas {
   display: block;
   width: 100% !important;
   height: auto !important; }
+
+.chartkey {
+  display: block;
+  height: 1em;
+  width: 10%;
+  float: left;
+  margin: 0 5% 0 0; }
+
+.key {
+  width: 100%; }
+
+.keys li {
+  width: 85%;
+  margin: 0 0 1em 0; }
+
+.blue {
+  background: #00f; }
+
+.yellow {
+  background: #ff0; }
+
+.red {
+  background: #f00; }
+
+.black {
+  background: #000; }

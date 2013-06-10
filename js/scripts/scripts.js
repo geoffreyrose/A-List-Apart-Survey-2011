@@ -24,7 +24,7 @@ var lineChartData = {
 				
 				//low
 				{
-					fillColor : " rgba(0, 0, 255, 0.75)",
+					fillColor : "rgba(0, 0, 255, 0.75)",
 					strokeColor : "rgba(151,187,205,1)",
 					pointColor : "rgba(151,187,205,1)",
 					pointStrokeColor : "#fff",
@@ -40,19 +40,24 @@ var lineChartData = {
 	var doughnutData = [
 				{
 					value: 25, //above 90
-					color:"#F7464A"
+					color:"rgba(255, 0, 0, 1)"
 				},
-				{
-					value : 156, //below 32
-					color : "#46BFBD"
-				},
+				
 				{
 					value : 180, //inbetween
-					color : "#FDB45C"
+					color : "rgba(255, 255, 0, 1)"
 				},
+				
+				{
+					value : 156, //below 32
+					color : "rgba(0, 0, 255, 1)"
+
+				},
+				
 				{
 					value : 4, //below 0
-					color : "#949FB1"
+					color : "rgba(0, 0, 0, 1)",
+
 				},
 				
 				
@@ -66,7 +71,7 @@ var lineChartData = {
 			labels : ["January","February","March","April","May","June","July","August","September","October","November","December"],
 			datasets : [
 				{
-					fillColor : "rgba(220,220,220,0.5)",
+					fillColor : "rgba(0, 0, 0, 1)",
 					strokeColor : "rgba(220,220,220,1)",
 					data : [13,10,9,7,7,7,3,3,4,7,11,11]
 				},
