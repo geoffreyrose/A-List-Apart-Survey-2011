@@ -5,6 +5,8 @@ canvas {
 	height: auto !important;
 }
 
+
+
 .chartkey {
 	display: block;
 	height: 1em;
@@ -38,4 +40,46 @@ canvas {
 
 .black {
 	background: #000;
+}
+
+
+aside.canvascell {
+	width: 100%;
+}
+
+table {
+	width: 100%
+}
+
+
+@media screen and (min-width: $med) {
+	table {
+		width: 50%;
+		float: left
+	}
+	
+	p {
+		width: 45%;
+		margin-right: 5%;
+		float: left;
+	}
+
+}
+
+@media screen and (min-width: $big) {
+	aside.canvascell {
+		width: 65%;
+		margin-right: 5%;
+		float: left;
+	}
+		
+	table {
+		width: 30%;
+		float: left
+	}
+
+	p {
+		clear: both;
+	}
+
 }
