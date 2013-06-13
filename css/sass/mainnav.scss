@@ -6,6 +6,7 @@ nav {
 		li {
 			margin-bottom: .5em;
 			text-align: center;
+			padding: .5em 0;
 			
 			a, a:link, a:visited {
 				text-decoration: none;
@@ -28,15 +29,26 @@ nav {
 	}
 }
 
+header {
+	float: left;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+	overflow: hidden;
+
+	
+}
 
 .mininav {
 	
 	nav {
-		height: 2.5em;
-		overflow: hidden;
-		
+
+		margin: -28.1em 0 0 0;
 		ul {
-			margin: -18.5em 0 0 0;
+			
 		}
 	}
 }
@@ -49,5 +61,5 @@ nav {
 
 
 .togglea {
-	margin: 0 0 1.5em 0;
+	padding: 1em 0;
 }
