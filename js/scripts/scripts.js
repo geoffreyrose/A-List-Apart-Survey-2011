@@ -260,5 +260,14 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 	var myPie = new Chart(document.getElementById("siteyn").getContext("2d")).Pie(pieData);
 
 	
+	
+	
+$(document).ready(function(){
+	$('header').addClass('mininav');
+	$('.togglea').click(function(){
+		$('header').toggleClass('mininav', 1000);
+	});
+	
+});	
 
 	

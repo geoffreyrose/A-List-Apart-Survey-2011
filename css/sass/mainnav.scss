@@ -1,12 +1,50 @@
 nav {
-
+	margin: 0 auto;
+	font-family: 'SourceSansProLight';
 	ul {
-	
-		li {
 		
-			a {
+		li {
+			margin-bottom: .5em;
+			text-align: center;
+			
+			a, a:link, a:visited {
+				text-decoration: none;
+				color: #000;
+				font-size: 1.25em;
+				-webkit-transition: color .5s;
+				-moz-transition: color .5s;
+				-ms-transition: color .5s;
+				-o-transition: color .5s;
+				transition: color .5s;
+				
+			}
+			
+			a:hover, a:active, a:focus {
+				color: #f00;
+				font-size: 1.25em;
 				
 			}
 		}
 	}
+}
+
+
+.mininav {
+	
+	nav {
+		height: 2.5em;
+		overflow: hidden;
+		
+		ul {
+			margin: -17.5em 0 0 0;
+		}
+	}
+}
+
+
+
+
+
+.togglea {
+	margin: 0 0 1.5em 0;
 }
