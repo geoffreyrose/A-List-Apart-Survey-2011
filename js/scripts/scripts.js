@@ -237,7 +237,7 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 					strokeColor : "rgba(0,0,0,1)",
 					pointColor : "rgba(0,0,0,1)",
 					pointStrokeColor : "#fff",
-					data : [7.3,6.4,10.8,1.3,9.1,11.0,7.3,5.8,5.4,2.5,23.2]
+					data : [7.3,6.4,10.8,11.3,9.1,11.0,7.3,5.8,5.4,2.5,23.2]
 				},
 			]
 			
@@ -264,8 +264,9 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 	
 $(document).ready(function(){
 	$('header').addClass('mininav');
-	$('.togglea').click(function(){
-		$('header').toggleClass('mininav', 1000);
+	$('nav ul li a').click(function(){
+		$('header').toggleClass('mininav');
+		$('h3 a').offset({ top: 150});
 	});
 	
 });	
