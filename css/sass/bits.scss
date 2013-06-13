@@ -1,8 +1,29 @@
 /** Variables **/
+$blue: #2782fa;
+$pink: #da4fe3;
+$yellow: #fde340;
+$green: #5def3c;
+$orange: #fa921b;
+$black: #000;
+$white: #fff;
+$offwhite: #ffffc3;
+$red: #f00;
+$purple: #8f19ba;
+$lightblue: #67beff;
+$violet: #5e117a;
+$darkgreen: #1b7100;
+$brown: #5d3d00;
+$gray: #aaa;
+$lightbrown: #d7c398;
+$superpink: #ff00b8;
+$darkgray: #444;
 
-/** Mixins **/
+
+
 $big: 800px;
 $med: 540px;
+
+/** Mixins **/
 
 /** Linking all .scss together **/
 
@@ -13,3 +34,4 @@ $med: 540px;
 @import 'header';
 @import 'footer';
 @import 'charts';
+@import 'colors';

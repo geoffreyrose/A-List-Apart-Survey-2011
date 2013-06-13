@@ -1,3 +1,7 @@
+body {
+	background: url('../img/gridme.png') repeat fixed;
+}
+
 div.containter {
 	max-width: 1000px;
 	width: 100%;	
@@ -6,13 +10,15 @@ div.containter {
 }
 
 article {
-	width: 100%;
-	padding: 1em 0%;	
+	width: 92.5%;
+	padding: 1em 3.75%;	
+	background: rgba(255,255,255,.65);
+	float: left;
 }
 
 section {
-	width: 92%;
-	padding: 1em 4%;
+	width: 100%;
+	padding: 0 0 1em;
 	float: left;
 	-webkit-transition: all 1s;
 	-moz-transition: all 1s;
@@ -22,7 +28,6 @@ section {
 }
 
 section:hover {
-	background: #ccc;
 }
 
 aside {

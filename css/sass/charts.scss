@@ -4,63 +4,79 @@ canvas {
 	width: 100% !important;
 	height: auto !important;
 }
-
-
-
-.chartkey {
-	display: block;
+.colorkey {
+	width: 3em;	
 	height: 1em;
-	width: 10%;
-	float: left;
-	margin: 0 5% 0 0
+	display: inline-block;
+	vertical-align: middle;
 }
-
-
-.key {
-	width: 100%;
-}
-.keys li {
-	width: 85%;
-	margin: 0 0 1em 0 ;
-	
-}
-
-
-.blue {
-	background: #00f;
-}
-
-.yellow {
-	background: #ff0;
-}
-
-.red {
-	background: #f00;;
-}
-
-.black {
-	background: #000;
-}
-
 
 aside.canvascell {
 	width: 100%;
 }
 
 table {
-	width: 100%
+	width: 100%;
+	margin: 1em 0;
+	
+		tr {
+			width: 100%;
+			background: #222;
+			color: #fff;
+			margin: 0 0 .2em 0;
+			display: block;
+			float: left;
+			
+			td {
+				width: 40%;
+				display: block;
+				float: left;
+				padding: .2em 5%;
+			}
+		}
+		
+		tr:nth-of-type(even) {
+			background: #666;
+		}
+}
+
+
+table.three {
+	width: 100%;
+	margin: 1em 0;
+	
+		tr {
+			width: 100%;
+			background: #222;
+			color: #fff;
+			margin: 0 0 .2em 0;
+			display: block;
+			float: left;
+			
+			td {
+				width: 25%;
+				display: block;
+				float: left;
+				padding: .2em 4.166%;
+			}
+		}
+		
+		tr:nth-of-type(even) {
+			background: #666;
+		}
 }
 
 
 @media screen and (min-width: $med) {
-	table {
+	table, table.three {
 		width: 50%;
-		float: left
+		float: left;
+		margin-right: 5%
 	}
+	
 	
 	p {
 		width: 45%;
-		margin-right: 5%;
 		float: left;
 	}
 
@@ -68,18 +84,20 @@ table {
 
 @media screen and (min-width: $big) {
 	aside.canvascell {
-		width: 65%;
-		margin-right: 5%;
+		width: 60%;
+		margin-right: 3%;
 		float: left;
 	}
 		
-	table {
-		width: 30%;
-		float: left
+	table, table.three {
+		width: 37%;
+		margin-right: 0;
+		float: left;
 	}
 
 	p {
-		clear: both;
+		clear: none;
+		width: 37%;
 	}
 
 }

@@ -2,8 +2,8 @@ var barChartData = {
 			labels : ["18 and under","19-29","30-44","45-64","65 and over"],
 			datasets : [
 				{
-					fillColor : "rgba(220,220,220,0.5)",
-					strokeColor : "rgba(220,220,220,1)",
+					fillColor : "#fde340",
+					strokeColor : "rgba(0,0,0,1)",
 					data : [1.1,44.3,47.6,6.7,0.3]
 				}
 			]
@@ -17,15 +17,15 @@ var myLine = new Chart(document.getElementById("age").getContext("2d")).Bar(barC
 var doughnutData = [
 				{
 					value: 18, //female
-					color:"#F7464A"
+					color:"#da4fe3"
 				},
 				{
 					value : 81.6, //male
-					color : "#46BFBD"
+					color : "#2782fa"
 				},
 				{
 					value : 0.5, //other
-					color : "#FDB45C"
+					color : "#fde340"
 				},
 			
 			];
@@ -34,76 +34,28 @@ var myDoughnut = new Chart(document.getElementById("gender").getContext("2d")).D
 
 		var doughnutData = [
 				{
-					value: 39.4, 
-					color:"#F7464A"
+					value: 4.6, 
+					color:"#2782fa"
 				},
 				{
-					value : 10.9,
-					color : "#46BFBD"
+					value : 1.2,
+					color : "#fff"
 				},
 				{
-					value : 10.8, 
-					color : "#FDB45C"
+					value : 4.0, 
+					color : "#fde340"
 				},
 				{
-					value: 7.8, 
-					color:"#F7464A"
+					value: 0.3, 
+					color:"#fa921b"
 				},
 				{
-					value : 6.4,
-					color : "#46BFBD"
+					value : 87.1,
+					color : "#5def3c"
 				},
 				{
-					value : 3.9, 
-					color : "#FDB45C"
-				},
-				{
-					value: 3.6, 
-					color:"#F7464A"
-				},
-				{
-					value : 3.3,
-					color : "#46BFBD"
-				},
-				{
-					value : 3, 
-					color : "#FDB45C"
-				},
-				{
-					value : 2.3,
-					color : "#46BFBD"
-				},
-				{
-					value : 1.9, 
-					color : "#FDB45C"
-				},
-				{
-					value: 1.7, 
-					color:"#F7464A"
-				},
-				{
-					value : 1.4,
-					color : "#46BFBD"
-				},
-				{
-					value : 1, 
-					color : "#FDB45C"
-				},
-				{
-					value : 0.8, 
-					color : "#FDB45C"
-				},
-				{
-					value: 0.8, 
-					color:"#F7464A"
-				},
-				{
-					value : 0.7,
-					color : "#46BFBD"
-				},
-				{
-					value : 0.2, 
-					color : "#FDB45C"
+					value : 2.8, 
+					color : "#ffffc3"
 				},
 			
 			];
@@ -114,75 +66,75 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 		var pieData = [
 				{
 					value: 39.4,
-					color:"#F38630"
+					color:"#2782fa"
 				},
 				{
 					value : 10.9,
-					color : "#E0E4CC"
+					color : "#fff"
 				},
 				{
 					value : 10.8,
-					color : "#69D2E7"
+					color : "#fde340"
 				},
 				{
 					value: 7.8,
-					color:"#F38630"
+					color:"#fa921b"
 				},
 				{
 					value : 6.4,
-					color : "#E0E4CC"
+					color : "#5def3c"
 				},
 				{
 					value : 3.9,
-					color : "#69D2E7"
+					color : "#ffffc3"
 				},
 				{
 					value: 3.6,
-					color:"#F38630"
+					color:"#da4fe3"
 				},
 				{
 					value : 3.3,
-					color : "#E0E4CC"
+					color : "#000"
 				},
 				{
 					value : 3,
-					color : "#69D2E7"
+					color : "#8f19ba"
 				},
 				{
 					value: 2.3,
-					color:"#F38630"
+					color:"#67beff"
 				},
 				{
 					value : 1.9,
-					color : "#E0E4CC"
+					color : "#5e117a"
 				},
 				{
 					value : 1.7,
-					color : "#69D2E7"
+					color : "#1b7100"
 				},
 				{
 					value: 1.4,
-					color:"#F38630"
+					color:"#5d3d00"
 				},
 				{
 					value : 1,
-					color : "#E0E4CC"
+					color : "#444"
 				},
 				{
 					value : .8,
-					color : "#69D2E7"
+					color : "#aaa"
 				},
 				{
 					value:  .8,
-					color:"#F38630"
+					color:"#ff00b8"
 				},
 				{
 					value : .7,
-					color : "#E0E4CC"
+					color : "#d7c398"
 				},
 				{
 					value : .2,
-					color : "#69D2E7"
+					color : "#f00"
 				}
 			
 			];
@@ -192,27 +144,27 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 		var chartData = [
 			{
 				value : 0.7,
-				color: "#D97041"
+				color: "#2782fa"
 			},
 			{
 				value : 6.8,
-				color: "#C7604C"
+				color: "#8f19ba"
 			},
 			{
 				value : 19.4,
-				color: "#21323D"
+				color: "#fde340"
 			},
 			{
 				value : 58.1,
-				color: "#9D9B7F"
+				color: "#fa921b"
 			},
 			{
 				value : 14.1,
-				color: "#7D4F6D"
+				color: "#5def3c"
 			},
 			{
 				value : 0.9,
-				color: "#584A5E"
+				color: "#f00"
 			}
 		];
 	var myPolarArea = new Chart(document.getElementById("education").getContext("2d")).PolarArea(chartData);
@@ -221,9 +173,10 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 			labels : ["A lot","Some","A little","Not at all"],
 			datasets : [
 				{
-					fillColor : "rgba(220,220,220,0.5)",
-					strokeColor : "rgba(220,220,220,1)",
-					pointColor : "rgba(220,220,220,1)",
+					fillColor : "#2782fa",
+					strokeColor : "rgba(0,0,0,1)",
+					pointColor : "rgba(0,0,0,1)",
+
 					pointStrokeColor : "#fff",
 					data : [16.8,37.4,29.3,16.6]
 				},
@@ -238,9 +191,10 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 			labels : ["A lot","Some","A little","Not at all"],
 			datasets : [
 				{
-					fillColor : "rgba(151,187,205,0.5)",
-					strokeColor : "rgba(151,187,205,1)",
-					pointColor : "rgba(151,187,205,1)",
+					fillColor : "#fa921b",
+					strokeColor : "rgba(0,0,0,1)",
+					pointColor : "rgba(0,0,0,1)",
+
 					pointStrokeColor : "#fff",
 					data : [44.4,41.5,11.1,2.9]
 				}
@@ -253,16 +207,18 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 			labels : ["A lot","Some","A little","Not at all"],
 			datasets : [
 				{
-					fillColor : "rgba(220,220,220,0.5)",
-					strokeColor : "rgba(220,220,220,1)",
-					pointColor : "rgba(220,220,220,1)",
+					fillColor : "rgba(39,130,250,0.5)",
+					strokeColor : "rgba(0,0,0,1)",
+					pointColor : "rgba(0,0,0,1)",
+
 					pointStrokeColor : "#fff",
 					data : [16.8,37.4,29.3,16.6]
 				},
 				{
-					fillColor : "rgba(151,187,205,0.5)",
-					strokeColor : "rgba(151,187,205,1)",
-					pointColor : "rgba(151,187,205,1)",
+					fillColor : "rgba(250,130,27,0.5)",
+					strokeColor : "rgba(0,0,0,1)",
+					pointColor : "rgba(0,0,0,1)",
+
 					pointStrokeColor : "#fff",
 					data : [44.4,41.5,11.1,2.9]
 				}
@@ -277,9 +233,9 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 			labels : ["Less then a year","1 year","2 years","3 years","4 years","5 years","6 years","7 years","8 years","9 years","10 or more years"],
 			datasets : [
 				{
-					fillColor : "rgba(220,220,220,0.5)",
-					strokeColor : "rgba(220,220,220,1)",
-					pointColor : "rgba(220,220,220,1)",
+					fillColor : "#5def3c",
+					strokeColor : "rgba(0,0,0,1)",
+					pointColor : "rgba(0,0,0,1)",
 					pointStrokeColor : "#fff",
 					data : [7.3,6.4,10.8,1.3,9.1,11.0,7.3,5.8,5.4,2.5,23.2]
 				},
@@ -292,11 +248,11 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 	var pieData = [
 				{
 					value: 71.8,
-					color:"#F38630"
+					color:"#fa921b"
 				},
 				{
 					value : 28.2,
-					color : "#E0E4CC"
+					color : "#f00"
 				},
 			
 			];
