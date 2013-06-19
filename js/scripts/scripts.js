@@ -263,12 +263,7 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 	
 	
 $(document).ready(function(){
-	$('header').addClass('mininav');
-	$('nav ul li a').click(function(){
-		$('header').toggleClass('mininav');
-		$('h3 a').offset({ top: 150});
-	});
-	
+
 });	
 
 	
