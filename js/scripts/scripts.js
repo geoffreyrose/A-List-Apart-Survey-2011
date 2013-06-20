@@ -1,3 +1,7 @@
+$('document').ready(function() {
+	$('html, body').animate({ scrollTop: $('#start').offset().top }, 'fast');
+});
+
 var barChartData = {
 			labels : ["18 and under","19-29","30-44","45-64","65 and over"],
 			datasets : [
@@ -262,8 +266,6 @@ var myDoughnut = new Chart(document.getElementById("ethnicity").getContext("2d")
 	
 	
 	
-$(document).ready(function(){
-
-});	
+	
 
 	

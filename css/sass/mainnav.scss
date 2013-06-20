@@ -71,11 +71,8 @@ header {
 .top {
 	display: block;
 }
+
 @media screen and (min-width: $med) {
-
-}
-
-@media screen and (min-width: $big) {
 	header {
 		margin-top: 3em;
 	}
@@ -83,4 +80,8 @@ header {
 		width: 50%;
 		float: left;
 	}
+}
+
+@media screen and (min-width: $big) {
+	
 }
